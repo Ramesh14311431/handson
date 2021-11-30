@@ -1,0 +1,131 @@
+body
+{
+    background-color: gray;
+
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+
+.boxs
+{
+    border: 9px solid red;
+    box-shadow: 9px 9px rgb(143, 47, 143);
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 180px;
+    font-style: italic;
+    color:rgb(168, 57, 144);
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    line-height: 1.6;
+    text-shadow: 0px 0px 3px #000000;
+}
+.container1{
+    border: 9px solid green;
+    padding: 0px;
+    position: relative;
+    height: 750px;
+    width: 98vw;
+   
+}
+.box{
+
+    width: 260px;
+    height: 260px;
+    border: 10px solid red;
+    box-shadow: 10px 10px rgb(109, 5, 109);
+    background-color: white;
+    color: rgb(97, 10, 97);
+    font-weight: bolder;
+    font-size: 26px;
+    border-radius: 25px;
+    text-shadow: 0px 0px 4px #000000;
+
+}
+.box1{
+     position: absolute;
+     top:0px;
+     left: 0px;
+     
+}
+.box2{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+.box3{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.box{
+    position: absolute;
+    bottom:20px;
+    right: 30px;
+}
+.con2
+{
+    color: rgb(87, 19, 19);
+    background-color: rgb(123, 240, 123);
+    border: 9px solid red;
+    border-radius: 25px;
+    box-shadow:9px 9px rgb(136, 22, 136);
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 10px;
+    position: fixed;
+    bottom:60px;
+    left: 34vw;
+    z-index: 50;
+}
+.con3
+{
+    border: 9px solid rgb(136, 6, 136);
+    height: 600px;
+    width: 50vw;
+    background-color: green;
+    position: relative;
+
+}
+.box5{
+    border: 2px solid rgb(95, 93, 92);
+    background-color: rgb(224, 218, 129);
+    font-size: 15px;
+    font-style:oblique;
+    height: 250px;
+    width:24vw;
+    line-height: 1.9;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+.box6{
+    border: 2px solid rgb(95, 93, 92);
+    background-color: rgb(224, 218, 129);
+    font-size: 15px;
+    font-style:oblique;
+    height: 250px;
+    width:24vw;
+    line-height: 1.9;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+}
+.box7{
+    border: 2px solid rgb(95, 93, 92);
+    background-color: rgb(224, 218, 129);
+    font-size: 15px;
+    font-style:oblique;
+    height: 250px;
+    width:50vw;
+    line-height: 1.9;
+    position: absolute;
+    bottom: 0px;
+}

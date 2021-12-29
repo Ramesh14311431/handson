@@ -1,5 +1,7 @@
+
 .box1{
-    
+    width: 100vw;
+    height: 30px;
     font-weight: bold;
     font-size: 25px;
     text-decoration:underline;
@@ -11,7 +13,7 @@ ul{
 .box2{
     padding: 0px;
     width:800px;
-    height: fit-content;
+    height: 60px;
     background-color: rgb(181, 218, 240);
     border: 4px solid red;
     border-radius: 10px;
@@ -22,24 +24,26 @@ ul{
 .con1{
   border: 1px solid red;
   border-radius: 10px;
+  width: 100vw;
+  height: 150px;
   background-color: rgb(129, 233, 129);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
  
 }
 .con1-box{
     width:500px;
-    height: fit-content;
+    height: 70px;
     border: 2px solid green;
     background-color: aquamarine;
     border-radius: 10px;
     
 }
-.upper{
-    display: flex;
-    justify-content: space-around;
-}
-.lower{
-    display: flex;
-    justify-content: center;
+.con1-box4{
+    position: absolute;
+    bottom: 0px;
+    right: center;
 }
 .box3{
     margin-top:  30px;
@@ -87,7 +91,6 @@ ul{
     grid-template-rows: 90px 90px;
     grid-row-gap: 20px;
     grid-column-gap: 20px;
-    margin-bottom: 30px;
 }
 .con3-box1{
     background-color:rgb(121, 204, 121) ;
@@ -118,11 +121,4 @@ ul{
     grid-row:1/3 ;
     grid-column: 4/5;
 }
-.box5{
-    width: 100vw;
-    background-color: turquoise;
-    height: 30px;
-    font-weight: bold;
-    font-size: 25px;
- 
-}
+
